@@ -52,13 +52,22 @@
                                     <action selector="sendMailButtomPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KlQ-MQ-HwX"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="W0y-KB-WKq">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="155" width="42" height="21"/>
+                                </variation>
+                            </label>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="noL-Ma-dlp">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="22" y="72" width="288" height="75"/>
+                                    <rect key="frame" x="9" y="72" width="288" height="75"/>
                                 </variation>
                             </label>
                         </subviews>
@@ -69,6 +78,7 @@
                                 <exclude reference="Kco-1T-26e"/>
                                 <exclude reference="bmO-Dh-Pj2"/>
                                 <exclude reference="owK-DS-qr9"/>
+                                <exclude reference="W0y-KB-WKq"/>
                                 <exclude reference="noL-Ma-dlp"/>
                             </mask>
                         </variation>
@@ -78,6 +88,7 @@
                                 <include reference="Kco-1T-26e"/>
                                 <include reference="bmO-Dh-Pj2"/>
                                 <include reference="owK-DS-qr9"/>
+                                <include reference="W0y-KB-WKq"/>
                                 <include reference="noL-Ma-dlp"/>
                             </mask>
                         </variation>
@@ -87,6 +98,7 @@
                         <outlet property="enterNameTextField" destination="Kco-1T-26e" id="T2e-m4-KAQ"/>
                         <outlet property="mailButton" destination="owK-DS-qr9" id="X3o-Hp-038"/>
                         <outlet property="messageLabel" destination="noL-Ma-dlp" id="dEh-AT-NQK"/>
+                        <outlet property="nameLabel" destination="W0y-KB-WKq" id="rPx-Ds-1AZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
